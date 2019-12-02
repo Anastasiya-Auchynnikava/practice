@@ -211,8 +211,15 @@ ul{
         background: #fff;
         padding: .5em 1.3em;
         margin: 1em;
+        form{
+            margin: 2em 0 1em 0;
+        }
         h3{
             max-width: 60%;
+        }
+        input{
+            width: 70%;
+            padding: 2% 4%;
         }
     }
 }
@@ -227,7 +234,7 @@ ul{
 .btn{
     text-transform: uppercase;
     padding: 2% 4%;
-    border: 1px solid $green;
+    border: 2px solid $green;
     background: $green;
     color: white;
     font-weight: 700;
